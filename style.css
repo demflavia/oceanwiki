@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://s3-sa-east-1.amazonaws.com/youportal/fotos/noticias/12009/gd/10-curiosidades-sobre-o-fundo-mar_fb8h.jpg");
+  min-height: 100vh;
+  background-color: #0078aa;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.usuario {
+  width: 550px;
+  display: flex;
+  column-gap: 16px;
+  row-gap: 8px;
+  flex-wrap: wrap;
+}
+
+.page-title {
+  font-size: 60px;
+  color: #002b5b;
+  margin: 0 0 5px;
+}
+
+p {
+  font-size: 30px;
+  color: #eae3d2;
+  margin: 0 0 5px;
+}
+
+.centralizar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.todosOsPeixes {
+  width: 550px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.peixe {
+  width: 267px;
+  height: 220px;
+  border-radius: 8px;
+  border: 2px solid white;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.peixe a {
+  color: #eae3d2;
+  background-color: #2b4865;
+  border-radius: 8px;
+  width: 160px;
+  height: 50px;
+}
+
+.inserir {
+  width: 550px;
+  display: flex;
+  column-gap: 16px;
+  row-gap: 8px;
+  flex-wrap: wrap;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+input[type="text"] {
+  width: 267px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.todosOsPeixes {
+  width: 550px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+button {
+  font-family: "Roboto Mono", monospace;
+  width: 267px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  padding: 8px;
+  background-color: #2b4865;
+  color: #eae3d2;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #54bab9;
+}
+.imagens {
+  width: 225px;
+  height: 150px;
+}
